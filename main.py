@@ -91,4 +91,4 @@ total *= duration_options[event_duration]
 
 st.write(f"**Genel Toplam =** **{display_price(total, total_calc=True)}**")
 
-st.warning("Euro kuru 34.8 TL kabul edilmiştir. Genel toplam 50 TL katına yuvarlanmıştır.")
+st.warning("Euro kuru 37 TL kabul edilmiştir. Genel toplam 50 TL katına yuvarlanmıştır.")

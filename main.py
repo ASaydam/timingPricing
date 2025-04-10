@@ -5,7 +5,7 @@ from math import floor
 st.title("Timing Ücret Hesaplama")
 
 # Get euro - try conversion rate
-EURO = 37.0
+EURO = 41.0
 MIN_PRICE = 250
 PARTICIPANT_RATE = 0.15
 ANNOUNCER = 50

@@ -5,7 +5,7 @@ from math import floor
 st.title("Timing Ücret Hesaplama")
 
 # Get euro - try conversion rate
-EURO = 41.0
+EURO = 45.0
 MIN_PRICE = 250
 PARTICIPANT_RATE = 0.15
 ANNOUNCER = 50
@@ -91,4 +91,4 @@ total *= duration_options[event_duration]
 
 st.write(f"**Genel Toplam =** **{display_price(total, total_calc=True)}**")
 
-st.warning("Euro kuru 41 TL kabul edilmiştir. Genel toplam 50 TL katına yuvarlanmıştır.")
+st.warning("Euro kuru 45 TL kabul edilmiştir. Genel toplam 50 TL katına yuvarlanmıştır.")
